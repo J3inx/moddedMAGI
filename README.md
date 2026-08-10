@@ -1,3 +1,25 @@
+# Modder's Remarks
+This program was originally made by TomaszRewak, it also originally used the OpenAi api to run but i didn't feel like paying for that so with lots of help from ai I worked on converting it to openRouter instead so it can use the free api keys on the website, i also wanted to replicate the audio played by the magi computer when it was making decisions so i added crappy sounds that i tried to make sound as close to the original as i could as well as a sound ripped from the n64 Evangelion game
+below is the original readme file along with some additions i added to let it work properly with the additions i made as well as a screenshot of the guardrails i added to open router as some of the ai's wouldn't work properly or understand the prompts properly
+<img width="1256" height="370" alt="Screenshot 2026-08-10 at 09 19 15" src="https://github.com/user-attachments/assets/ab5b7e66-c2c3-4d9f-9d72-208a3274d612" />
+
+setup:
+if you dont have python 3.11 use ```brew install python@3.11```
+
+then run
+
+```/opt/homebrew/bin/python3.11 -m venv venv``` 
+
+```source venv/bin/activate``` 
+
+```pip install -r requirements.txt``` 
+
+```python main.py```
+
+
+on my computer i also had problems running the script due to one of the requirements not working properly so i had to install an older version using this code:
+
+```python3 -m pip install "setuptools<81"```
 # MAGI
 
 MAGI system is a cluster of three AI supercomputers that manage and support all task performed by the NERV organization from their Tokyo-3 headquarter.
@@ -67,7 +89,6 @@ python -m venv .venv
 ```
 .\.venv\scripts\activate
 ```
-
 5. Install dependencies:
 
 ```
@@ -79,11 +100,22 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+NOTE: the requirements work best with python 3.11.5 so these are the actual commands to run:
+
+```/opt/homebrew/bin/python3.11 -m venv venv```
+
+```source venv/bin/activate```
+
+```pip install -r requirements.txt```
+
+```python main.py```
 
 7. Navigate to http://127.0.0.1:8050/ in your web browser.
 
 8. Paste your openAI API key into the `access code` field (alternatively you can set the `OPENAI_API_KEY` environment variable before starting the app).
 
-9. Write your question into the `question` field and hit enter.
+NOTE: it is not OpenAi anymore, this program uses openRouter instead as it has a wider variety of free keys
 
-10. Click on individual subsystems to inspect their answers.
+10. Write your question into the `question` field and hit enter.
+
+11. Click on individual subsystems to inspect their answers.
