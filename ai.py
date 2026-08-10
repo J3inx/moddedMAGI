@@ -11,12 +11,14 @@ MODEL = "openrouter/free"
 pygame.mixer.init()
 
 sound = pygame.mixer.Sound("./magi_in_decision.wav")
+sound2 = pygame.mixer.Sound("./magi_decision_made.wav")
 count = 0
 count_lock = threading.Lock()
 
 sound_channel = None
 
-
+##audio test
+sound_channel = sound2.play()
 def playSounds():
     global sound_channel
 
