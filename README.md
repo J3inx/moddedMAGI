@@ -4,6 +4,19 @@ This program was originally made by TomaszRewak(https://github.com/TomaszRewak/M
 below is the original readme file along with some additions i added to let it work properly with the additions i made as well as a screenshot of the guardrails i added to open router as some of the ai's wouldn't work properly or understand the prompts properly
 <img width="1256" height="370" alt="Screenshot 2026-08-10 at 09 19 15" src="https://github.com/user-attachments/assets/ab5b7e66-c2c3-4d9f-9d72-208a3274d612" />
 
+the audio files used could use some real work, for the deciding sound i had to use an alarm clock sound pitched up and sped up, and for the decision made sound i used a sound from the Evangelion 64 game, not even sure where it came from since the file names from the library i found are not helpful at all, if anyone has some raw sound effects that aren't muddled like the reference clip below please let me know or replace them in this repository.
+
+Refference audio:
+https://github.com/user-attachments/assets/71fa0248-5739-4111-b1e7-64c9e8c264a1
+
+Deciding audio:
+[magi_in_decision.wav](https://github.com/user-attachments/files/30901807/magi_in_decision.wav)
+
+Decision made audio:
+[magi_decision_made.wav](https://github.com/user-attachments/files/30901772/magi_decision_made.wav)
+
+
+
 setup:
 if you dont have python 3.11 use ```brew install python@3.11```
 
