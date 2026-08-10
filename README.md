@@ -6,14 +6,14 @@ below is the original readme file along with some additions i added to let it wo
 
 the audio files used could use some real work, for the deciding sound i had to use an alarm clock sound pitched up and sped up, and for the decision made sound i used a sound from the Evangelion 64 game, not even sure where it came from since the file names from the library i found are not helpful at all, if anyone has some raw sound effects that aren't muddled like the reference clip below please let me know or replace them in this repository.
 
-Refference audio:
-https://github.com/user-attachments/assets/71fa0248-5739-4111-b1e7-64c9e8c264a1
+Reference audio:
+[MAGI refference audio](https://github.com/user-attachments/assets/71fa0248-5739-4111-b1e7-64c9e8c264a1)
 
 Deciding audio:
-[magi_in_decision.wav](https://github.com/user-attachments/files/30901807/magi_in_decision.wav)
+[MAGI_in_decision.wav](https://github.com/user-attachments/files/30901807/magi_in_decision.wav) 
 
 Decision made audio:
-[magi_decision_made.wav](https://github.com/user-attachments/files/30901772/magi_decision_made.wav)
+[MAGI decision_made.wav](https://github.com/user-attachments/files/30901772/magi_decision_made.wav)
 
 
 
