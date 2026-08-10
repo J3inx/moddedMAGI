@@ -1,3 +1,4 @@
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads)
 # Modder's Remarks
 This program was originally made by TomaszRewak, it also originally used the OpenAi api to run but i didn't feel like paying for that so with lots of help from ai I worked on converting it to openRouter instead so it can use the free api keys on the website, i also wanted to replicate the audio played by the magi computer when it was making decisions so i added crappy sounds that i tried to make sound as close to the original as i could as well as a sound ripped from the n64 Evangelion game
 below is the original readme file along with some additions i added to let it work properly with the additions i made as well as a screenshot of the guardrails i added to open router as some of the ai's wouldn't work properly or understand the prompts properly
