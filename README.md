@@ -11,7 +11,7 @@ then run
 
 ```/opt/homebrew/bin/python3.11 -m venv venv``` 
 
-```source venv/bin/activate``` 
+```. venv/bin/activate``` 
 
 ```pip install -r requirements.txt``` 
 
@@ -105,7 +105,7 @@ NOTE: the requirements work best with python 3.11.5 so these are the actual comm
 
 ```/opt/homebrew/bin/python3.11 -m venv venv```
 
-```source venv/bin/activate```
+```. venv/bin/activate```
 
 ```pip install -r requirements.txt```
 
