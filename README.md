@@ -34,6 +34,8 @@ then run
 on my computer i also had problems running the script due to one of the requirements not working properly so i had to install an older version using this code:
 
 ```python3 -m pip install "setuptools<81"```
+
+original description by TomaszRewak(https://github.com/TomaszRewak/MAGI):
 # MAGI
 
 MAGI system is a cluster of three AI supercomputers that manage and support all task performed by the NERV organization from their Tokyo-3 headquarter.
